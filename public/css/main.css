@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    overflow: hidden;
+    padding: 20px 10px;
+    height: 112px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase; 
+}
+
+.button{
+    background: #FE2E6D;
+    height: 50px;
+    border-radius:3px;
+    color: #fff !important;
+}
+
+.header-right #phone{
+    font-size: 15px;
+}
+
+.hero {
+    width:100%;
+    background: #ccc;
+    height:300px;
+}  
+
+#mobile-nav-toggle{
+    display:none;
+}
+
+
+
+/*--- Media queries --*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .logo{
+        float:left;
+    }
+    .header-right a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 15px;
+    }
+    
+    .header-right {
+         float: none;
+    }
+
+    #mobile-nav-toggle{
+        display:block;
+        float:right;
+    }
+
+
+    .desktop-nav{
+        display:none;
+    }
+ }
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+   
+}
+
+/*--- End of Media queries --*/
