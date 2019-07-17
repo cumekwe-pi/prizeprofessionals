@@ -3,7 +3,7 @@
   <div class="header-right">
       <div class="desktop-nav">
       <a href="{{route('services')}}"> services </a>
-      <a href=""> partners </a>
+      <a href="{{route('partners')}}"> partners </a>
       <a href=""> request quote </a>
       <a href=""> contact </a>
       <a href="" id="phone">023 1234 567 </a>

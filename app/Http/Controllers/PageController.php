@@ -15,4 +15,9 @@ class PageController extends BaseController
     {
         return view('pages.services');
     }
+
+    public function partners()
+    {
+        return view('pages.partners');
+    }
 }

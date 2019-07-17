@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('/',  ['uses' => 'PageController@index',   'as' => 'index']);
 Route::get('/services',  ['uses' => 'PageController@services',   'as' => 'services']);
+Route::get('/partners',  ['uses' => 'PageController@partners',   'as' => 'partners']);
