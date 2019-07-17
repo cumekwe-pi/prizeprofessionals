@@ -10,4 +10,9 @@ class PageController extends BaseController
     {
         return view('pages.index');
     }
+
+    public function services()
+    {
+        return view('pages.services');
+    }
 }

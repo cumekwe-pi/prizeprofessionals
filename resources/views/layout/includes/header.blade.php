@@ -1,8 +1,8 @@
 <header>
-  <a href="#" class="logo"><img src="{{asset('img/logo_1.png')}}"></a>
+<a href="{{route('index')}}" class="logo"><img src="{{asset('img/logo_1.png')}}"></a>
   <div class="header-right">
       <div class="desktop-nav">
-      <a href=""> services </a>
+      <a href="{{route('services')}}"> services </a>
       <a href=""> partners </a>
       <a href=""> request quote </a>
       <a href=""> contact </a>
