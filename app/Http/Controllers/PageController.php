@@ -20,4 +20,9 @@ class PageController extends BaseController
     {
         return view('pages.partners');
     }
+
+    public function requestQuote()
+    {
+        return view('pages.request-quote');
+    }
 }
