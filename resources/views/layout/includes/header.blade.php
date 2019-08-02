@@ -19,9 +19,9 @@
   </div>
 
     <div class="collapse" id="mobile-nav">
-            <a href=""> services </a>
-            <a href=""> partners </a>
-            <a href=""> request quote </a>
+            <a href="{{route('services')}}"> services </a>
+            <a href="{{route('partners')}}"> partners </a>
+            <a href="{{route('requestQuote')}}"> request quote </a>
             <a href=""> contact </a>
             <a href="" id="phone">023 1234 567 </a>
             <a href="" class="button"> claim a prize </a>

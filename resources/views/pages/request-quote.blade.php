@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('content')
 
-<div class="container">
+<div class="container mb-5">
     <div class="py-md-5">
         <h1> Request a quote</h1>
         <h3> Tell us what you need and we’ll put together a tailored made quote just for you</h3>
@@ -25,12 +25,12 @@
                 <div class="form-group">
                         <input type="text" class="form-control" name="" placeholder="Phone number"/>
                 </div>
-                <div class="form-group mb-3">
+                <div class="form-group">
                     <textarea class="form-control"  placeholder="Give us some details(more the better)" ></textarea>
                 </div>
                 <div class="custom-control custom-checkbox mb-3">
-                    <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-                    <label class="custom-control-label" for="customControlValidation1">
+                    <input type="checkbox" class="custom-control-input" id="canEmail" required>
+                    <label class="custom-control-label" for="canEmail">
                         Tick this box if you don’t mind us emailing you from time to 
                         time with updates and things. Take a look at our Privacy Policy here
                     </label>
