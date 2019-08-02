@@ -25,4 +25,14 @@ class PageController extends BaseController
     {
         return view('pages.request-quote');
     }
+
+    public function contact()
+    {
+        return view('pages.contact');
+    }
+
+    public function claimPrize()
+    {
+        return view('pages.claim-prize');
+    }
 }
