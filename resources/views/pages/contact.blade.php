@@ -1,10 +1,12 @@
 @extends('layout.app')
 @section('content')
 
+<div class="in-content-hero" style="background:url(img/contact.jpg) no-repeat; background-size: cover;"></div>
+
 <div class="container mb-5">
     <div class="py-md-5">
         <h1> Contact us</h1>
-        <h3> Talk to us about your next campaign, find out more about what we do or ask us anything, we aim to reply within a day</h3>
+        <h3> Talk to us about your next campaign, find out more about what we do or ask us anything. We aim to reply within a day</h3>
         
         <div class="row">
             <form class="col-md-6">
