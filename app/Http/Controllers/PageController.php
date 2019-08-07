@@ -35,4 +35,9 @@ class PageController extends BaseController
     {
         return view('pages.claim-prize');
     }
+
+    public function prizeSourcing()
+    {
+        return view('pages.prize-sourcing');
+    }
 }

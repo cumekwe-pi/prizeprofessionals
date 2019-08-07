@@ -27,7 +27,7 @@
                         Tell us the prize you want and we’ll supply it, or let us 
                         source the perfect prize to match your promotion.
                     </p>
-                    <a href="#" class="btn button">FIND OUT MORE</a>
+                    <a href="{{route('prizeSourcing')}}" class="btn button">FIND OUT MORE</a>
                 </div>
             </div>
             <div class="card col-md-4" style="">
