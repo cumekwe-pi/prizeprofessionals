@@ -1,17 +1,22 @@
 @extends('layout.app')
 @section('content')
 
+<div class="in-content-hero" style="background:url(img/request-a-quote-quote-pg.jpg) no-repeat; background-size: cover;"></div>
+
 <div class="container mb-5">
     <div class="py-md-5">
         <h1> Request a quote</h1>
         <h3> Tell us what you need and we’ll put together a tailored made quote just for you</h3>
         
         <p> 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-             culpa qui officia deserunt mollit anim id est laborum.
+            We now you have budgets to stick to, so we help you stick to them by giving you all costs up front. 
+            We can then help you tweak your quote to get the most out of your money while still creating a 
+            high-performing campaign. If you have a brief, send it through or if you have an idea let us 
+            help you turn that idea into reality.
+        </p>
+        <p>
+            Call us on 023 1234 5678, attach a brief and email us on hello@prizeprofessionals.co.uk or 
+            use the form below: 
         </p>
 
         <div class="row">
