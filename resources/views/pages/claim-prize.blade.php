@@ -1,11 +1,12 @@
 @extends('layout.app')
 @section('content')
 
+<div class="in-content-hero" style="background:url(img/claim-a-prize.jpg) no-repeat; background-size: cover;"></div>
+
 <div class="container mb-5">
     <div class="py-md-5">
         <h1> Claim a prize</h1>
-        <h3> Are you a winner of a prize promotion we’ve created? Congratulations! 
-            Tell us you’ve won below and we’ll be in touch</h3>
+        <h3> Are you a winner of a prize promotion we’ve created, or have a promo code to redeem? Simply tell us below</h3>
         
         <div class="row">
             <form class="col-md-6">
