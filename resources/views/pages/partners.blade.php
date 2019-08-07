@@ -1,113 +1,242 @@
 @extends('layout.app')
 @section('content')
 
-<div class="in-content-hero" style="background:url(img/partners-splash-img-1.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero" style="background:url(img/prize-promotion-agency-partner.jpg) no-repeat; background-size: cover;"></div>
 
 <div class="container">
         <div class="py-md-5">
-                <h1> Our partners</h1>
-                <h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                    labore et dolore magna aliqua.
+                <h1> We’re a prize promotion & fulfilment partner agency</h1>
+                <h3> 
+                    We partner with agencies, brands and media and provide prize sourcing, fulfilment 
+                    & winner management for incentives and promotional campaigns
                 </h3> 
         </div> 
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-             culpa qui officia deserunt mollit anim id est laborum.
+                Partner with us and we’ll manage your entire prize promotion campaign. 
+                We’re a partner agency, meaning we work with big brands, creative agencies
+                and massive media channels to boost awareness, maximise sales, make 
+                some noise around a new product, increase engagement, keep customer retention 
+                and introduce the brand to new customers. We want to turn your audience into 
+                loyal brand advocates and nothing does that better than a prize promotion.
         </p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-             nulla pariatur. Excepteur sint occaecat cupidatat non proident,.
+        <p> 
+                We provide everything you need for a highly successful promotional campaign, 
+                from campaign planning to prize sourcing all the way to winner management. 
+                We’ve even developed our very own and highly customisable online prize submission 
+                software, allowing you to capture whatever data you need, choose winners daily or 
+                require users to enter a code to enter a draw or instantly win a prize.
+        </p>
+        <p>
+                As the Prize Professionals, our teams are experts in prize management
+                and have worked with some of the world’s biggest brands on some highly
+                profitable campaigns. So if you need to give your brand a boost or your
+                client wants something super special, speak to the Prize Professionals.  
         </p>
         
-        <div class="row py-md-5 text-center">
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/airbnb.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/facebook.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/apple.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/windows.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/xbox.png')}}" class="card-img-top" alt="">
-                </div>
-        </div>
+</div>
 
-        
-        <div class="row py-md-5 text-center">
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/mailchimp.png')}}" class="card-img-top" alt="">
+<div class="container">
+                <div class="py-md-5">
+                        <h1>  Our partner brands & agencies </h1>
                 </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/linkedin.png')}}" class="card-img-top" alt="">
+                <div class="row py-md-5 text-center">
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/airbnb.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/facebook.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/apple.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/windows.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/xbox.png')}}" class="card-img-top" alt="">
+                                </div>
                 </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/instagram.png')}}" class="card-img-top" alt="">
+                <div class="row py-md-5 text-center">
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/mailchimp.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/linkedin.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/instagram.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/whatsapp.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4 mb-4">
+                                        <img src="{{asset('img/adobe.png')}}" class="card-img-top" alt="">
+                                </div>
                 </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/whatsapp.png')}}" class="card-img-top" alt="">
+                <div class="row py-md-5 text-center">
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/airbnb.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/facebook.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/apple.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/windows.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/xbox.png')}}" class="card-img-top" alt="">
+                                </div>
                 </div>
-                <div class="col-sm-2 mt-4 mb-4">
-                        <img src="{{asset('img/adobe.png')}}" class="card-img-top" alt="">
+                <div class="row py-md-5 text-center">
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/mailchimp.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/linkedin.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/instagram.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4">
+                                        <img src="{{asset('img/whatsapp.png')}}" class="card-img-top" alt="">
+                                </div>
+                                <div class="col-sm-2 mt-4 mb-4">
+                                        <img src="{{asset('img/adobe.png')}}" class="card-img-top" alt="">
+                                </div>
                 </div>
-        </div>
-
-        
-        <div class="row py-md-5 text-center">
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/airbnb.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/facebook.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/apple.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/windows.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/xbox.png')}}" class="card-img-top" alt="">
-                </div>
-        </div>
-
-        <div class="row py-md-5 text-center">
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/mailchimp.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/linkedin.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/instagram.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4">
-                        <img src="{{asset('img/whatsapp.png')}}" class="card-img-top" alt="">
-                </div>
-                <div class="col-sm-2 mt-4 mb-4">
-                        <img src="{{asset('img/adobe.png')}}" class="card-img-top" alt="">
-                </div>
-        </div>
 
 </div>
 
-<div class="container mb-5">
+<div class="in-content-hero" style="background:url(img/partner-with-us.jpg) no-repeat; background-size: cover;"></div>
+
+<div class="container">
+                <h2 class="text-center py-md-3"> Partner with us and we’ll provide </h2>
+                <p>
+                        Prize Professionals provides everything you need to run a successful promotional campaign. 
+                        We offer a full end-to-end service, meaning we take a brief or an objective from you 
+                        and see the promotion through, from inception to totting up the results. 
+                        It’s why agencies love working with us, because they can simply tell us what
+                        they need the campaign to do and we just do it.
+                </p> 
+                <p>
+                        As experts in prize promotion, we provide a full set of services, including prize sourcing,
+                         prize fulfilment and winner management as well as campaign planning, 
+                         on-pack promotions and employee rewards recognition. 
+                         We’ve even developed our own online prize submission software.
+                </p>
+                <p>
+                        It makes partnering with us easy since you don’t need to do a thing. 
+                        Some agencies like to get involved with the design to keep their campaign consistent,
+                        which is absolutely fine. We’re flexible in the way that we work and
+                        happy to offer as much or as little support as needed. But if you need it all,
+                        we can provide it.
+                </p>
+                <div class="row">
+                        <div class="card col-md-4" style="">
+                            <img src="{{asset('img/prizes.svg')}}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Prize sourcing</h5>
+                                <p class="card-text">We’ll provide you with the exact prize you want or we can surprise you with something special </p>
+                                <a href="#" class="btn button">FIND OUT MORE</a>
+                            </div>
+                        </div>
+                        <div class="card col-md-4" style="">
+                                <img src="{{asset('img/prize-fulfilment.svg')}}" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Prize fulfilment</h5>
+                                    <p class="card-text">From logistics and strategy to terms and conditions, we offer a full prize fulfilment service</p>
+                                    <a href="#" class="btn button">FIND OUT MORE</a>
+                                </div>
+                        </div>
+                        <div class="card col-md-4" style="">
+                                <img src="{{asset('img/winner-management.svg')}}" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title">Winner management</h5>
+                                    <p class="card-text">Your winners treated like VIPs, we’ll handle all contact on your behalf with your winners </p>
+                                    <a href="#" class="btn button">FIND OUT MORE</a>
+                                </div>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="card col-md-4" style="">
+                                <img src="{{asset('img/campaign-planning.svg')}}" class="card-img-top" alt="">
+                                <div class="card-body">
+                                <h5 class="card-title">Campaign planning</h5>
+                                <p class="card-text">Leave it to us to plan your whole campaign from start to finish, keeping on-brand at all times </p>
+                                <a href="#" class="btn button">FIND OUT MORE</a>
+                                </div>
+                        </div>
+                        <div class="card col-md-4" style="">
+                                <img src="{{asset('img/on-pack-promotions.svg')}}" class="card-img-top" alt="">
+                                <div class="card-body">
+                                        <h5 class="card-title">On-pack promotions</h5>
+                                        <p class="card-text">Give your brand a boost with an on-pack promotion, planned and fulfilled by us</p>
+                                        <a href="#" class="btn button">FIND OUT MORE</a>
+                                </div>
+                        </div>
+                        <div class="card col-md-4" style="">
+                                <img src="{{asset('img/travel-promotions.svg')}}" class="card-img-top" alt="">
+                                <div class="card-body">
+                                        <h5 class="card-title">Travel promotions</h5>
+                                        <p class="card-text">We can provide the ultimate getaway, including flights, accommodation and activities </p>
+                                        <a href="#" class="btn button">FIND OUT MORE</a>
+                                </div>
+                        </div>
+                </div>
+</div>
+
+<div class="in-content-hero" style="background:url(img/why-partner-with-us.jpg) no-repeat; background-size: cover;"></div>
+
+<div class="container py-md-5">
+        <h3 class="text-center py-md-3"> Why you should partner with us </h3>
+        <p> 
+                Think of us as an extension of your own team. We work with you, not just for you,
+                 to ensure your campaign does exactly what you want it to. If you want us to 
+                 handle the whole thing, that’s what we do best. Or if you want to be involved
+                 at every stage, that’s fine too.
+        </p>
+        <p>
+                Flexibility is the key to our success and we’re happy to talk over 
+                what you need from your campaign so we can tell you what you need from us.
+                 There are no limits when it comes to prizes in terms of volume or value and 
+                 we understand that every brand and campaign is different and require a bespoke approach.
+        </p>
+        <p>
+                Creating a successful prize promotion campaign takes a lot of time, simply 
+                because there is so much to organise. The planning, prize sourcing, fulfilment,
+                customer support, building a platform for customers to enter or redeem prizes,
+                winner management. So why not save time and do what you need to do while you 
+                leave us to do what we do best. 
+        </p>
+        {{-- <div class="text-center"> <a href="#" class="btn button">Request a Quote</a></div> --}}
+        <div class="py-md-5">
+                <ul>
+                        <li> We’re open to working the way you work</li>
+                        <li> You’ll have your own Prize Professional </li>
+                        <li> Huge list of prize, holiday and travel suppliers </li>
+                        <li> Experts in handing entire promotional campaigns </li>
+                        <li> We create lasting collaborative partnerships </li>
+                </ul>
+                <a href="#" class="btn button">Get in touch</a>
+        </div>
+</div>
+
+<div class="in-content-hero" style="background:url(img/be-our-next-partner.jpg) no-repeat; background-size: cover;"></div>
+
+<div class="container mb-5 py-md-5">
         <div class="row">
                 <h3> Be our next partner </h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat.
+                        We’re always looking to partner with more brands and agencies! 
+                        No matter what size your campaign is, or even if you just want us on 
+                        standby to allow you to offer a prize promotion service to your clients
+                        or keep this strategy up your sleeve, we’d love to hear from you.
                 </p>
+                <p> Talk to us! About what you need, how it all works, or just to get to know us better.
+                    Give us a call or send us an email below; we aim to respond in a day or so.</p>
     
                 <form class="col-md-6">
                     <div class="form-group">
