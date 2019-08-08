@@ -36,7 +36,7 @@
                         <h5 class="card-title">Prize fulfillment</h5>
                         <p class="card-text">As well as trips and experiences, we can also send prizes.
                              We’ll also contact the winners and make all arrangements. </p>
-                        <a href="#" class="btn button">FIND OUT MORE</a>
+                        <a href="{{route('prizeFulfillment')}}" class="btn button">FIND OUT MORE</a>
                     </div>
             </div>
             <div class="card col-md-4" style="">

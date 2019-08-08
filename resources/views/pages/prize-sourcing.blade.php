@@ -233,22 +233,25 @@
 
 <div class="container">
         <div class="heading-text"><h2>Request a bespoke quote</h2></div>
-        <p> 
-            Every campaign is different, which is why we don’t have an ‘off the shelf’ solution
-            for every agency. We under stand no two agencies are alike and everyone works in a
-            different way, so get in touch with us, tell us what you need, and we’ll create a bespoke quote. 
-        </p>
-        <p>
-            The more info you can give us the better, so if you have a brief – great! Send it through.
-            If you have an idea or want us to work our magic, let us know. We’ll then come back to you in
-            a day or so with a quote made especially for your campaign.  
-        </p>
-        <p>
-            We’re flexible, though. So why not give us a call for a chat and we’ll work together to make sure your campaign does exactly what you want it to.
-        </p>
-        <div class="py-md-5">
-                <a href="#" class="btn button">Request a quote</a>
+        <div class="row">
+                <p> 
+                    Every campaign is different, which is why we don’t have an ‘off the shelf’ solution
+                    for every agency. We under stand no two agencies are alike and everyone works in a
+                    different way, so get in touch with us, tell us what you need, and we’ll create a bespoke quote. 
+                </p>
+                <p>
+                    The more info you can give us the better, so if you have a brief – great! Send it through.
+                    If you have an idea or want us to work our magic, let us know. We’ll then come back to you in
+                    a day or so with a quote made especially for your campaign.  
+                </p>
+                <p>
+                    We’re flexible, though. So why not give us a call for a chat and we’ll work together to make sure your campaign does exactly what you want it to.
+                </p>
+                <div class="py-md-5">
+                        <a href="#" class="btn button">Request a quote</a>
+                </div>
         </div>
+      
 </div>
 
 @endsection

@@ -40,4 +40,9 @@ class PageController extends BaseController
     {
         return view('pages.prize-sourcing');
     }
+
+    public function prizeFulfillment()
+    {
+        return view('pages.prize-fulfillment');
+    }
 }
