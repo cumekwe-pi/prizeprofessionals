@@ -47,7 +47,7 @@
                              We treat every winner like royalty. Their dedicated Prize Professional is 
                              with them every step of their journey.
                         </p>
-                        <a href="#" class="btn button">FIND OUT MORE</a>
+                        <a href="{{route('winnerManagement')}}" class="btn button">FIND OUT MORE</a>
                     </div>
             </div>
     </div>

@@ -23,3 +23,4 @@ Route::get('/contact',  ['uses' => 'PageController@contact',   'as' => 'contact'
 Route::get('/claim-a-prize',  ['uses' => 'PageController@claimPrize',   'as' => 'claimPrize']);
 Route::get('/prize-sourcing',  ['uses' => 'PageController@prizeSourcing',   'as' => 'prizeSourcing']);
 Route::get('/prize-fulfillment',  ['uses' => 'PageController@prizeFulfillment',   'as' => 'prizeFulfillment']);
+Route::get('/winner-management',  ['uses' => 'PageController@winnerManagement',   'as' => 'winnerManagement']);

@@ -5,29 +5,65 @@ body {
 
 header {
     overflow: hidden;
-    padding: 20px 10px;
+    padding: 9px 10px;
     height: auto;
 }
-
+.header-left{
+    float:left;
+    width:20%;
+    margin-top: 10px;
+}
 .header-right {
     float: right;
+    width: 70%;
+    margin-top:5px;
 }
 
 .header-right a {
     float: left;
-    color: black;
+    color: #626262;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 14px;
     text-transform: uppercase; 
+    width: 147px;
+}
+
+.header-right a:hover{
+    color: #FE2E6D;
+    font-weight: bold;
+}
+
+.phone-email-prize{
+    float: left;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    width: 36%;
+}
+
+.phone-email-prize span{
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.desktop-nav{
+    width:100%;
 }
 
 .button{
     background: #FE2E6D;
     height: auto;
-    border-radius:3px;
+    border-radius: 10px;
+    height: 36px;
+    width: 130px;
     color: #fff !important;
+}
+
+.header-right .button {
+    line-height:10px;
 }
 
 .white-button{
@@ -104,10 +140,17 @@ footer a{
  display: block;
 }
 
+.logo{
+    width:200px;
+}
 /*--- Media queries --*/
 
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
     .grey-bg{
         background: #F0F0F0;
     }
@@ -182,13 +225,26 @@ footer a{
     }
  }
 
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { 
-   
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .desktop-nav{
+        display:none;
+    }
  }
 
-/*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .desktop-nav{
+        display:none;
+    }
     header {
         overflow: hidden;
         padding: 5px 5px;
@@ -196,14 +252,65 @@ footer a{
     }
  }
 
-/*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-   
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .desktop-nav{
+        display:none;
+    }
     header {
         overflow: hidden;
         padding: 5px 5px;
         height: auto;
     }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media  (min-width: 1025px) and (max-width: 1280px) {
+    .header-right {
+        float: right;
+        width: 70%;
+        margin-top:5px;
+    }
+    
+    .header-right a {
+        float: left;
+        color: #626262;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase; 
+        width: 147px;
+    }
+    
+}
+
+@media (min-width: 1281px) and (max-width: 1560px) {
+    .header-right {
+        float: right;
+        width: 70%;
+        margin-top:5px;
+    }
+    
+    .header-right a {
+        float: left;
+        color: #626262;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase; 
+        width: 147px;
+    }
+    
 }
 
 /*--- End of Media queries --*/

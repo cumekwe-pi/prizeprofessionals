@@ -45,4 +45,9 @@ class PageController extends BaseController
     {
         return view('pages.prize-fulfillment');
     }
+
+    public function winnerManagement()
+    {
+        return view('pages.winner-management');
+    }
 }
