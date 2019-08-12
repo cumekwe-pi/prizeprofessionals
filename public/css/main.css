@@ -110,6 +110,10 @@ header {
     display:none;
 }
 
+.phone-icon{
+    display: none;
+}
+
 #hero_text{
     font-size:62px;
     display:block;
@@ -192,8 +196,12 @@ footer a{
     header{
         height:auto;
     }
+    
+    .logo {
+        width: 172px;
+    }
 
-    .logo{
+    /* .logo{
         float:left;
     }
   
@@ -239,7 +247,7 @@ footer a{
         margin:auto;
         width:20%;
         padding: 9px;
-    }
+    } */
  }
 
 /* 
@@ -250,6 +258,11 @@ footer a{
 @media (min-width: 481px) and (max-width: 767px) {
     .desktop-nav{
         display:none;
+    }
+    .header-right {
+        float: right;
+        width: 58%;
+        margin-top: 30px;
     }
  }
 
@@ -323,7 +336,7 @@ footer a{
         text-align: center;
         padding: 12px;
         text-decoration: none;
-        font-size: 12px;
+        /* font-size: 12px; */
         text-transform: uppercase; 
         width: 151px;
         letter-spacing: 2px;
@@ -345,6 +358,10 @@ footer a{
         float: left;
         margin-right: 12px;
     }
+
+    /* .logo {
+        width:100%;
+    } */
 }
 
 @media (min-width: 1560px) {
@@ -366,8 +383,54 @@ footer a{
         width:33%;
     }
 
-    .logo{
-        width: 200px;
+ 
+}
+
+@media screen and (max-width: 1829px) {
+    .desktop-nav{
+        display: none !important;
+    }
+    #mobile-nav-toggle{
+        display:block;
+        float:right;
+        margin-right: 16px;
+    }
+    .phone-icon{
+        display: block;
+        float:left;
+        margin-top:5px;
+    }
+    #mobile-nav{
+        width:100%;
+        clear: both; 
+    }
+    #mobile-nav a {
+        display:block;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: uppercase; 
+        color: black;
+    }
+    header{
+        height:auto;
+    }
+    .header-right {
+        float: right;
+        width: 58%;
+        margin-top: 30px;
+    }
+
+    .header-left{
+        height:62px;
+    }
+    .mobile-nav-content{
+        /* width: 50%; */
+        height:62px;
+        float:right;
+    }
+    .hamburger-icon{
+        display: inline-block;
     }
 }
 /*--- End of Media queries --*/
