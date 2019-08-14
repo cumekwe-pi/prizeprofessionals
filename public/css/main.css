@@ -314,6 +314,9 @@ footer a{
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 200px;
+    }
     .desktop-nav{
         display:none;
     }
@@ -354,6 +357,12 @@ footer a{
      .hamburger-icon{
         display: inline-block;
     }
+
+    .header-right {
+        float: right;
+        width: 17%;
+        margin-top: 30px;
+    }
  }
 
 /* 
@@ -368,7 +377,15 @@ footer a{
     header {
         overflow: hidden;
         padding: 5px 5px;
-        height: auto;
+        height: 112px;
+    }
+    .logo {
+        width: 200px;
+    }
+    .header-right {
+        float: right;
+        width: 20%;
+        margin-top: 30px;
     }
 }
 
@@ -378,9 +395,13 @@ footer a{
 */
 
 @media  (min-width: 1025px) and (max-width: 1257px) {
+    .logo{
+        width:180px;
+    }
+
     .header-right {
         float: right;
-        width: 70%;
+        width: 75%;
         margin-top:30px;
     }
     
@@ -390,14 +411,45 @@ footer a{
         text-align: center;
         padding: 12px;
         text-decoration: none;
-        font-size: 19px;
+        /* font-size: 19px; */
         text-transform: uppercase; 
-        width: 147px;
     }
     
+    .phone-email {
+        display:none;
+    }
+
+    .header-left {
+        margin-top: 39px;
+    }
+
+    .desktop-nav-links a {
+        margin-right: 7px;
+        font-size: 16px;
+    }
+
+    .desktop-nav-links {
+        width: 76%;
+    }
+
+    .header-right .button {
+        width: 132px;
+        font-size: 13px;
+        height: 45px;
+    }
+
+
+    .phone-email-prize {
+        float: right;
+        height: 56px;
+        margin-left: 33px;
+        font-size: 16px;
+        color: #626262;
+        margin-right: 27px;
+    }
 }
 
-@media (min-width: 1258px) and (max-width: 1297px) {
+@media (min-width: 1258px) and (max-width: 1298px) {
     .desktop-nav-links a{
         margin-right: 13px;
         font-size:17px;
@@ -438,6 +490,9 @@ footer a{
     .desktop-nav-links {
         width: 64%;
         height: auto;
+    }
+    .header-left {
+        margin-top: 39px;
     }
 }
 
@@ -480,6 +535,10 @@ footer a{
         margin-right: 10px;
     }
     
+    .header-left{
+        margin-top: 36px;
+        
+    }
 }
 
 @media (min-width: 1560px) and (max-width:1598px){
@@ -495,6 +554,10 @@ footer a{
         font-size:16px;
     }
 
+    .header-left{
+        margin-top: 36px;
+        
+    }
     .header-right .button {
         width: 178px;
         font-size: 16px;
@@ -522,7 +585,7 @@ footer a{
     }
 }
 
-@media (min-width: 1694px) and (max-width:1759px){
+@media (min-width: 1694px) and (max-width:1760px){
     .desktop-nav {
         width: 100%;
     }
@@ -536,17 +599,11 @@ footer a{
         text-transform: uppercase;
         /* width: 219px; */
     }
-
    
 
-    header{
-        height:auto;
-    }
-    
-
-    .header-left{
+    /* .header-left{
         height:62px;
-    }
+    } */
 
     .desktop-nav-links a{
         margin-right: 34px;
