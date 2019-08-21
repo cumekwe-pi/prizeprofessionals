@@ -8,7 +8,7 @@
         <title>Prize Professionals</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap" rel="stylesheet">
         <!-- ===============================================-->
         <!--    Stylesheets-->
         <!-- ===============================================-->

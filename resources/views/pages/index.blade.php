@@ -8,7 +8,7 @@
         </span>
 </div>
 
-<div class="container">
+<div class="container pb-109">
     <div class="heading-text">
             <h1> Specialist prize fulfilment & management partner agency </h1>
             <p> 
@@ -19,27 +19,27 @@
     </div> 
 
     <div class="row">
-            <div class="card col-md-4" style="">
+            <div class="card col-md-4 card-custom" style="">
                 <img src="{{asset('img/prize-sourcing.svg')}}" class="card-img-top" alt="prize sourcing">
                 <div class="card-body">
                     <h5 class="card-title">Prize sourcing</h5>
-                    <p class="card-text">
+                    <p class="card-text prize-sourcing-text">
                         Tell us the prize you want and we’ll supply it, or let us 
                         source the perfect prize to match your promotion.
                     </p>
-                    <a href="{{route('prizeSourcing')}}" class="btn button">FIND OUT MORE</a>
+                    <a href="{{route('prizeSourcing')}}" class="btn btn-pp">FIND OUT MORE</a>
                 </div>
             </div>
-            <div class="card col-md-4" style="">
+            <div class="card col-md-4 card-custom" style="">
                     <img src="{{asset('img/prize-fulfilment.svg')}}" class="card-img-top" alt="prize fulfillment">
                     <div class="card-body">
                         <h5 class="card-title">Prize fulfillment</h5>
-                        <p class="card-text">As well as trips and experiences, we can also send prizes.
+                        <p class="card-text prize-fulfilment-text">As well as trips and experiences, we can also send prizes.
                              We’ll also contact the winners and make all arrangements. </p>
-                        <a href="{{route('prizeFulfillment')}}" class="btn button">FIND OUT MORE</a>
+                        <a href="{{route('prizeFulfillment')}}" class="btn btn-pp">FIND OUT MORE</a>
                     </div>
             </div>
-            <div class="card col-md-4" style="">
+            <div class="card col-md-4 card-custom" style="">
                     <img src="{{asset('img/winner-management.svg')}}" class="card-img-top" alt="winner management">
                     <div class="card-body">
                         <h5 class="card-title">Winner management</h5>
@@ -47,51 +47,51 @@
                              We treat every winner like royalty. Their dedicated Prize Professional is 
                              with them every step of their journey.
                         </p>
-                        <a href="{{route('winnerManagement')}}" class="btn button">FIND OUT MORE</a>
+                        <a href="{{route('winnerManagement')}}" class="btn btn-pp">FIND OUT MORE</a>
                     </div>
             </div>
     </div>
 
     <div class="row">
-                <div class="card col-md-4" style="">
+                <div class="card col-md-4 card-custom" style="">
                         <img src="{{asset('img/customer-service-support.svg')}}" class="card-img-top" alt="customer service support">
                         <div class="card-body">
                                 <h5 class="card-title">Customer service support</h5>
-                                <p class="card-text">
+                                <p class="card-text customer-service-support-text">
                                         We can take care of all customer questions and prize entries allowing you 
                                         to get on with what you need to do.
                                 </p>
-                                <a href="#" class="btn button">FIND OUT MORE</a>
+                                <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                 </div>
-                <div class="card col-md-4" style="">
+                <div class="card col-md-4 card-custom" style="">
                         <img src="{{asset('img/campaign-handling.svg')}}" class="card-img-top" alt="campaign handling">
                         <div class="card-body">
-                                <h5 class="card-title">Campaign handling</h5>
-                                <p class="card-text">Use us as much as you need, from coming up with the 
+                                <h5 class="card-title campaign-handling-title">Campaign handling</h5>
+                                <p class="card-text campaign-handling-text">Use us as much as you need, from coming up with the 
                                         big idea to execution, we’re used to working with partner agencies. </p>
-                                <a href="#" class="btn button">FIND OUT MORE</a>
+                                <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                 </div>
-                <div class="card col-md-4" style="">
+                <div class="card col-md-4 card-custom" style="">
                         <img src="{{asset('img/end-to-end-management.svg')}}" class="card-img-top" alt="end to end management">
                         <div class="card-body">
                                 <h5 class="card-title">End-to-end management</h5>
-                                <p class="card-text">
+                                <p class="card-text end-to-end-text">
                                         From the campaign idea to prize delivery and everything in between, we offer a full end-to-end campaign management service.
                                 </p>
-                                <a href="#" class="btn button">FIND OUT MORE</a>
+                                <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                 </div>             
     </div>
 
 </div>
 
-<div class="container-fluid bg-brand-color">
-    <div class="container">
-            <div class="heading-text"> <h1> How it works </h1> </div>
+<div class="container-fluid bg-brand-color pb-86">
+    <div class="container ">
+            <div class="heading-text"> <h1 class="mt-103"> How it works </h1> </div>
             <div class="row">
-                    <div class="card col-sm-3">
+                    <div class="card col-md-3">
                             <img src="{{asset('img/brief-us.svg')}}" class="card-img-top" alt="brief us">
                             <div class="card-body">
                                 <h5 class="card-title">Brief us</h5>
@@ -100,13 +100,13 @@
                                 </p>
                             </div>
                     </div>
-                    <div class="col-sm-1 mobile-hide">
-                         <img src="{{asset('img/long-arrow.png')}}">
+                    <div class="mobile-hide desktop-arrow-how-it-works-wrapper">
+                         <img src="{{asset('img/long-arrow.png')}}" class="desktop-arrow-how-it-works">
                     </div>
-                    <div class="col-sm-1 mobile-show">
-                           <img src="{{asset('img/long-arrow-mobile.png')}}">
+                    <div class="mobile-show mobile-arrow-how-it-works-wrapper">
+                           <img src="{{asset('img/long-arrow-mobile.png')}}" class="mobile-arrow-how-it-works">
                     </div>
-                    <div class="card col-sm-3">
+                    <div class="card col-md-3">
                             <img src="{{asset('img/we-do-our-thing.svg')}}" class="card-img-top" alt="we do our thing">
                             <div class="card-body">
                                 <h5 class="card-title">We do our thing</h5>
@@ -114,13 +114,13 @@
                                     with everything, all on-brand</p>
                             </div>
                     </div>
-                    <div class="col-sm-1 mobile-hide">
-                            <img src="{{asset('img/long-arrow.png')}}">
+                    <div class="mobile-hide desktop-arrow-how-it-works-wrapper">
+                            <img src="{{asset('img/long-arrow.png')}}" class="desktop-arrow-how-it-works">
                     </div>
-                    <div class="col-sm-1 mobile-show">
-                        <img src="{{asset('img/long-arrow-mobile.png')}}">
+                    <div class="mobile-show mobile-arrow-how-it-works-wrapper">
+                        <img src="{{asset('img/long-arrow-mobile.png')}}" class="mobile-arrow-how-it-works">
                    </div>
-                    <div class="card col-sm-3">
+                    <div class="card col-md-3">
                             <img src="{{asset('img/winners-cared-for.svg')}}" class="card-img-top" alt="your winners cared for">
                             <div class="card-body">
                                 <h5 class="card-title">Your winners cared for</h5>
@@ -135,9 +135,9 @@
 
 <div class="in-content-hero" style="background:url(img/prize-promotion-partner.jpg) no-repeat; background-size: cover;"></div>
 
-<div class="container">
+<div class="container pb-109">
         <div class="heading-text">
-                <h1> Your new prize promotion partner. </h1>
+                <h1 class="mt-120"> Your new prize promotion partner. </h1>
                 <p> We love working with other agencies! We can provide as much support 
                     as you need from prize sourcing to end-to-end campaign management.
                 </p> 
@@ -189,45 +189,45 @@
 
 <div class="container">
         <div class="heading-text">
-                <h1> Prizes & incentives for all </h1>
+                <h1 class="mt-120"> Prizes & incentives for all </h1>
                 <p> Any budget, any audience, anywhere in the world. We have the right prizes for your promotional campaign.</p> 
         </div>       
-        <div class="row">
+        <div class="row mt-83">
                 <div class="card col-md-4">
-                        <img src="{{asset('img/travel-holidays.svg')}}" class="card-img-top" alt="Travel & holidays">
-                        <div class="card-body">
+                        <img src="{{asset('img/travel-holidays.svg')}}" class="card-img-top prize-incentive-img" alt="Travel & holidays">
+                        <div class="card-body mt-83">
                                 <h5 class="card-title">Travel & holidays</h5>
                         </div>
                 </div>
                 <div class="card col-md-4">
-                        <img src="{{asset('img/experience-days.svg')}}" class="card-img-top" alt="Experience days">
-                        <div class="card-body">
+                        <img src="{{asset('img/experience-days.svg')}}" class="card-img-top prize-incentive-img" alt="Experience days">
+                        <div class="card-body mt-83">
                                 <h5 class="card-title">Experience days</h5>
                         </div>
                 </div>
                 <div class="card col-md-4">
-                        <img src="{{asset('img/vouchers.svg')}}" class="card-img-top" alt="increased loyalty">
-                        <div class="card-body">
+                        <img src="{{asset('img/vouchers.svg')}}" class="card-img-top prize-incentive-img" alt="increased loyalty">
+                        <div class="card-body mt-83">
                                 <h5 class="card-title">Vouchers</h5>
                         </div>
                 </div>
         </div>
-        <div class="row">
+        <div class="row mt-83">
                 <div class="card col-md-4">
-                        <img src="{{asset('img/weekend-breaks.svg')}}" class="card-img-top" alt="Weekend breaks">
-                        <div class="card-body">
+                        <img src="{{asset('img/weekend-breaks.svg')}}" class="card-img-top prize-incentive-img" alt="Weekend breaks">
+                        <div class="card-body mt-83">
                                 <h5 class="card-title">Weekend breaks</h5>
                         </div>
                 </div>
                 <div class="card col-md-4">
-                        <img src="{{asset('img/high-value-prizes.svg')}}" class="card-img-top" alt="High value items">
-                        <div class="card-body">
+                        <img src="{{asset('img/high-value-prizes.svg')}}" class="card-img-top prize-incentive-img" alt="High value items">
+                        <div class="card-body mt-83">
                                 <h5 class="card-title">High Value Items</h5>
                         </div>
                 </div>
                 <div class="card col-md-4">
-                        <img src="{{asset('img/gifts-prizes.svg')}}" class="card-img-top" alt="Gifts & prizes">
-                        <div class="card-body">
+                        <img src="{{asset('img/gifts-prizes.svg')}}" class="card-img-top prize-incentive-img" alt="Gifts & prizes">
+                        <div class="card-body mt-83">
                                 <h5 class="card-title">Gifts & prizes</h5>
                         </div>
                 </div>
@@ -285,10 +285,10 @@
 
 <div class="container-fluid bg-brand-color py-md-5">
         <div class="container">
-                <div class="heading-text ">
+                <div class="heading-text mt-83">
                         <h1> Let’s talk</h1>
                         <p>Learn how it all works, request a quote, get started working with us or ask us anything.</p> 
-                        <a href="#" class="btn white-button">Contact us</a>
+                        <a href="#" class="btn white-button mt-27">Contact us</a>
                 </div> 
         </div>
 </div>
