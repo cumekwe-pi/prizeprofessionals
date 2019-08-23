@@ -41,70 +41,70 @@
                 </div>
                 <div class="row py-md-5 text-center">
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/airbnb.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/airbnb.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/facebook.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/facebook.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/apple.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/apple.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/windows.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/windows.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/xbox.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/xbox.png')}}" class="" alt="">
                                 </div>
                 </div>
                 <div class="row py-md-5 text-center">
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/mailchimp.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/mailchimp.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/linkedin.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/linkedin.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/instagram.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/instagram.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/whatsapp.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/whatsapp.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4 mb-4">
-                                        <img src="{{asset('img/adobe.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/adobe.png')}}" class="" alt="">
                                 </div>
                 </div>
                 <div class="row py-md-5 text-center">
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/airbnb.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/airbnb.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/facebook.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/facebook.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/apple.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/apple.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/windows.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/windows.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/xbox.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/xbox.png')}}" class="" alt="">
                                 </div>
                 </div>
                 <div class="row py-md-5 text-center">
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/mailchimp.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/mailchimp.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/linkedin.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/linkedin.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/instagram.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/instagram.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4">
-                                        <img src="{{asset('img/whatsapp.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/whatsapp.png')}}" class="" alt="">
                                 </div>
                                 <div class="col-sm-2 mt-4 mb-4">
-                                        <img src="{{asset('img/adobe.png')}}" class="card-img-top" alt="">
+                                        <img src="{{asset('img/adobe.png')}}" class="" alt="">
                                 </div>
                 </div>
 
@@ -139,24 +139,24 @@
                             <img src="{{asset('img/prizes.svg')}}" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Prize sourcing</h5>
-                                <p class="card-text">We’ll provide you with the exact prize you want or we can surprise you with something special </p>
-                                <a href="#" class="btn button">FIND OUT MORE</a>
+                                <p class="card-text prize-sourcing-text">We’ll provide you with the exact prize you want or we can surprise you with something special </p>
+                                <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                             </div>
                         </div>
                         <div class="card col-md-4" style="">
                                 <img src="{{asset('img/prize-fulfilment.svg')}}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Prize fulfilment</h5>
-                                    <p class="card-text">From logistics and strategy to terms and conditions, we offer a full prize fulfilment service</p>
-                                    <a href="#" class="btn button">FIND OUT MORE</a>
+                                    <p class="card-text prize-fulfilment-text">From logistics and strategy to terms and conditions, we offer a full prize fulfilment service</p>
+                                    <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                                 </div>
                         </div>
                         <div class="card col-md-4" style="">
                                 <img src="{{asset('img/winner-management.svg')}}" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Winner management</h5>
-                                    <p class="card-text">Your winners treated like VIPs, we’ll handle all contact on your behalf with your winners </p>
-                                    <a href="#" class="btn button">FIND OUT MORE</a>
+                                    <p class="card-text winner-mgt-text">Your winners treated like VIPs, we’ll handle all contact on your behalf with your winners </p>
+                                    <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                                 </div>
                         </div>
                 </div>
@@ -165,24 +165,24 @@
                                 <img src="{{asset('img/campaign-planning.svg')}}" class="card-img-top" alt="">
                                 <div class="card-body">
                                 <h5 class="card-title">Campaign planning</h5>
-                                <p class="card-text">Leave it to us to plan your whole campaign from start to finish, keeping on-brand at all times </p>
-                                <a href="#" class="btn button">FIND OUT MORE</a>
+                                <p class="card-text customer-service-support-text">Leave it to us to plan your whole campaign from start to finish, keeping on-brand at all times </p>
+                                <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                                 </div>
                         </div>
                         <div class="card col-md-4" style="">
                                 <img src="{{asset('img/on-pack-promotions.svg')}}" class="card-img-top" alt="">
                                 <div class="card-body">
                                         <h5 class="card-title">On-pack promotions</h5>
-                                        <p class="card-text">Give your brand a boost with an on-pack promotion, planned and fulfilled by us</p>
-                                        <a href="#" class="btn button">FIND OUT MORE</a>
+                                        <p class="card-text campaign-handling-text">Give your brand a boost with an on-pack promotion, planned and fulfilled by us</p>
+                                        <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                                 </div>
                         </div>
                         <div class="card col-md-4" style="">
                                 <img src="{{asset('img/travel-promotions.svg')}}" class="card-img-top" alt="">
                                 <div class="card-body">
                                         <h5 class="card-title">Travel promotions</h5>
-                                        <p class="card-text">We can provide the ultimate getaway, including flights, accommodation and activities </p>
-                                        <a href="#" class="btn button">FIND OUT MORE</a>
+                                        <p class="card-text travel-promotions">We can provide the ultimate getaway, including flights, accommodation and activities </p>
+                                        <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                                 </div>
                         </div>
                 </div>
@@ -220,7 +220,7 @@
                         <li> Experts in handing entire promotional campaigns </li>
                         <li> We create lasting collaborative partnerships </li>
                 </ul>
-                <a href="#" class="btn button">Get in touch</a>
+                <a href="#" class="btn btn-pp">Get in touch</a>
         </div>
 </div>
 
@@ -258,7 +258,7 @@
                             time with updates and things. Take a look at our Privacy Policy here
                         </label>
                     </div>
-                    <input type="submit" class="btn button" value="SEND"/>
+                    <input type="submit" class="btn btn-pp" value="SEND"/>
                 </form>
                 
                 

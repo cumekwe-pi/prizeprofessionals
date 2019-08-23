@@ -3,7 +3,7 @@
 
     <div class="in-content-hero" style="background:url(img/prize-sourcing-fulfilment-management.jpg) no-repeat; background-size: cover;"></div>
 
-    <div class="container">
+    <div class="container pb-109">
             <div class="heading-text">
                     <h1> Prize Sourcing, Fulfilment, Management & Winner Handling </h1>
                     <h3>We provide prize fulfilment, specialist winner handling, customer support, 
@@ -28,34 +28,34 @@
             <div class="text-center py-md-5"><h2> Our promotional partner agency services include </h2></div>
 
             <div class="row">
-                    <div class="card col-md-4" style="">
+                    <div class="card col-md-4 card-custom" style="">
                         <img src="{{asset('img/prize-sourcing.svg')}}" class="card-img-top" alt="prize sourcing">
                         <div class="card-body">
                             <h5 class="card-title">Prize sourcing</h5>
-                            <p class="card-text">
+                            <p class="card-text services-prize-sourcing-text">
                                  We’ll provide you with the exact prize you want or we can surprise you with something special 
                             </p>
-                            <a href="#" class="btn button">FIND OUT MORE</a>
+                            <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                     </div>
-                    <div class="card col-md-4" style="">
+                    <div class="card col-md-4 card-custom" style="">
                         <img src="{{asset('img/prize-fulfilment.svg')}}" class="card-img-top" alt="prize sourcing">
                         <div class="card-body">
                             <h5 class="card-title">Prize fulfilment</h5>
-                            <p class="card-text">
+                            <p class="card-text services-prize-fulfilment-text">
                                  From logistics and strategy to terms and conditions, we offer a full prize fulfilment service 
                             </p>
-                            <a href="#" class="btn button">FIND OUT MORE</a>
+                            <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                     </div>
-                    <div class="card col-md-4" style="">
+                    <div class="card col-md-4 card-custom" style="">
                         <img src="{{asset('img/winner-management.svg')}}" class="card-img-top" alt="prize sourcing">
                         <div class="card-body">
                             <h5 class="card-title">Winner management</h5>
-                            <p class="card-text">
+                            <p class="card-text winner-mgt-text">
                                  Your winners treated like VIPs, we’ll handle all contact on your behalf with your winners
                             </p>
-                            <a href="#" class="btn button">FIND OUT MORE</a>
+                            <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                     </div>
             </div>
@@ -68,7 +68,7 @@
                             <p class="card-text">
                                 Leave it to us to plan your whole campaign from start to finish, keeping on-brand at all times
                             </p>
-                            <a href="#" class="btn button">FIND OUT MORE</a>
+                            <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                     </div>
                     <div class="card col-md-4" style="">
@@ -78,7 +78,7 @@
                                 <p class="card-text">
                                     Give your brand a boost with an on-pack promotion, planned and fulfilled by us 
                                 </p>
-                                <a href="#" class="btn button">FIND OUT MORE</a>
+                                <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                             </div>
                     </div>
                     <div class="card col-md-4" style="">
@@ -88,7 +88,7 @@
                                 <p class="card-text">
                                     We can provide the ultimate getaway, including flights, accommodation and activities 
                                 </p>
-                                <a href="#" class="btn button">FIND OUT MORE</a>
+                                <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                             </div>
                     </div>
             </div>
@@ -144,7 +144,7 @@
                         <li> We can assist with the planning of the campaign, or do the whole thing ourselves </li>
                         <li> We can also build a custom online reward claiming platform, using instant win or entry codes </li>
                     </ul>
-                    <a href="#" class="btn button">Get in touch</a>
+                    <a href="#" class="btn btn-pp">Get in touch</a>
             </div>
     </div>
 
@@ -217,7 +217,7 @@
                 you want to achieve and as much detail as you have and we’ll aim to get
                 back to you within a day or so. 
             </p>
-            <div class="text-center"> <a href="#" class="btn button">Request a Quote</a></div>    
+            <div class="text-center"> <a href="#" class="btn btn-pp">Request a Quote</a></div>    
     </div>
 
     <div class="container-fluid bg-brand-color py-md-5">

@@ -29,7 +29,7 @@
                         time with updates and things. Take a look at our Privacy Policy here
                     </label>
                 </div>
-                <input type="submit" class="btn button" value="SEND"/>
+                <input type="submit" class="btn btn-pp" value="SEND"/>
             </form>  
         </div>
     </div> 

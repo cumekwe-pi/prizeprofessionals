@@ -40,7 +40,7 @@
                         time with updates and things. Take a look at our Privacy Policy here
                     </label>
                 </div>
-                <input type="submit" class="btn button" value="REQUEST QUOTE"/>
+                <input type="submit" class="btn btn-pp" value="REQUEST QUOTE"/>
             </form>  
         </div>
     </div> 
