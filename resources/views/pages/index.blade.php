@@ -43,7 +43,7 @@
                     <img src="{{asset('img/winner-management.svg')}}" class="card-img-top" alt="winner management">
                     <div class="card-body">
                         <h5 class="card-title">Winner management</h5>
-                        <p class="card-text">
+                        <p class="card-text winner-mgt-text">
                              We treat every winner like royalty. Their dedicated Prize Professional is 
                              with them every step of their journey.
                         </p>
@@ -246,37 +246,37 @@
 
                 <div class="row py-md-5 text-center">
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/airbnb.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/airbnb.png')}}" class="" alt="">
                         </div>
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/facebook.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/facebook.png')}}" class="" alt="">
                         </div>
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/apple.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/apple.png')}}" class="" alt="">
                         </div>
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/windows.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/windows.png')}}" class="" alt="">
                         </div>
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/xbox.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/xbox.png')}}" class="" alt="">
                         </div>
                 </div>
 
                 <div class="row py-md-5 text-center">
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/mailchimp.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/mailchimp.png')}}" class="" alt="">
                         </div>
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/linkedin.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/linkedin.png')}}" class="" alt="">
                         </div>
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/instagram.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/instagram.png')}}" class="" alt="">
                         </div>
                         <div class="col-sm mt-4">
-                                <img src="{{asset('img/whatsapp.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/whatsapp.png')}}" class="" alt="">
                         </div>
                         <div class="col-sm mt-4 mb-4">
-                                <img src="{{asset('img/adobe.png')}}" class="card-img-top" alt="">
+                                <img src="{{asset('img/adobe.png')}}" class="" alt="">
                         </div>
                 </div>
         </div>
