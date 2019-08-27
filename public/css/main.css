@@ -345,6 +345,18 @@ footer a{
     background:url(../img/prize-promotion-partner.jpg) no-repeat; 
     background-size: cover;
  }
+ .what-we-can-do-hero{
+    background:url(../img/what-we-can-do-for-you.jpg) no-repeat; 
+    background-size: cover;
+ }
+ .why-you-should-hero{
+    background:url(../img/why-you-should-work-with-us.jpg) no-repeat; 
+    background-size: cover;
+ }
+ .service-request-quote-hero{
+    background:url(../img/request-a-quote.jpg) no-repeat; 
+    background-size: cover;
+ }
 /*--- Media queries --*/
 
 /* 
@@ -568,6 +580,18 @@ footer a{
         background:url(../img/prize-promotion-partner-m.jpg) no-repeat; 
         background-size: cover;
      }
+     .what-we-can-do-hero{
+        background:url(../img/what-we-can-do-for-you-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .why-you-should-hero{
+        background:url(../img/why-you-should-work-with-us-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .service-request-quote-hero{
+        background:url(../img/request-a-quote-m.jpg) no-repeat; 
+        background-size: cover;
+     }
  }
 
 /* 
@@ -743,6 +767,18 @@ footer a{
         background:url(../img/prize-promotion-partner-m.jpg) no-repeat; 
         background-size: cover;
      }
+     .what-we-can-do-hero{
+        background:url(../img/what-we-can-do-for-you-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .why-you-should-hero{
+        background:url(../img/why-you-should-work-with-us-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .service-request-quote-hero{
+        background:url(../img/request-a-quote-m.jpg) no-repeat; 
+        background-size: cover;
+     }
  }
 
 /* 
@@ -862,7 +898,6 @@ footer a{
         margin-bottom: 25px;
     }
     .prize-fulfilment-text {
-        /* margin-top: 17px; */
         margin-bottom: 16px;
     }
     .prize-sourcing-text{
@@ -913,6 +948,18 @@ footer a{
      }
      .prize-promotion-hero{
         background:url(../img/prize-promotion-partner-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .what-we-can-do-hero{
+        background:url(../img/what-we-can-do-for-you-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .why-you-should-hero{
+        background:url(../img/why-you-should-work-with-us-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .service-request-quote-hero{
+        background:url(../img/request-a-quote-m.jpg) no-repeat; 
         background-size: cover;
      }
  }
@@ -1072,6 +1119,18 @@ footer a{
      }
      .prize-promotion-hero{
         background:url(../img/prize-promotion-partner-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .what-we-can-do-hero{
+        background:url(../img/what-we-can-do-for-you-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .why-you-should-hero{
+        background:url(../img/why-you-should-work-with-us-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .service-request-quote-hero{
+        background:url(../img/request-a-quote-m.jpg) no-repeat; 
         background-size: cover;
      }
 }

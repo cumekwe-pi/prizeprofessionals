@@ -117,7 +117,7 @@
           
     </div>
 
-    <div class="in-content-hero mt-3" style="background:url(img/what-we-can-do-for-you.jpg) no-repeat; background-size: cover;"></div>
+    <div class="in-content-hero mt-3 what-we-can-do-hero"></div>
 
     <div class="container py-md-5">
             <h3 class="text-center py-md-3"> What we can do for you </h3>
@@ -148,7 +148,7 @@
             </div>
     </div>
 
-    <div class="in-content-hero mt-3" style="background:url(img/why-you-should-work-with-us.jpg) no-repeat; background-size: cover;"></div>
+    <div class="in-content-hero mt-3 why-you-should-hero"></div>
 
     <div class="container">
             <h3 class="text-center py-md-3"> Why you should work with us </h3>
@@ -195,7 +195,7 @@
             </div>
     </div>
 
-    <div class="in-content-hero mt-3" style="background:url(img/request-a-quote.jpg) no-repeat; background-size: cover;"></div>
+    <div class="in-content-hero mt-3 service-request-quote-hero" style=""></div>
 
     <div class="container py-md-5">
             <h2 class="text-center py-md-3"> Request a bespoke quote </h2>
