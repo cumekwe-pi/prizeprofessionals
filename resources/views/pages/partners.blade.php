@@ -228,41 +228,42 @@
 
 <div class="container mb-5 py-md-5">
         <div class="row">
-                <h3> Be our next partner </h3>
-                <p>
-                        We’re always looking to partner with more brands and agencies! 
-                        No matter what size your campaign is, or even if you just want us on 
-                        standby to allow you to offer a prize promotion service to your clients
-                        or keep this strategy up your sleeve, we’d love to hear from you.
-                </p>
-                <p> Talk to us! About what you need, how it all works, or just to get to know us better.
-                    Give us a call or send us an email below; we aim to respond in a day or so.</p>
-    
-                <form class="col-md-6">
-                    <div class="form-group">
-                            <input type="text" class="form-control" name="" placeholder="Name"/>
-                    </div>
-                    <div class="form-group">
-                            <input type="email" class="form-control" name="" placeholder="Email address"/>
-                    </div>
-                    <div class="form-group">
-                            <input type="text" class="form-control" name="" placeholder="Phone number"/>
-                    </div>
-                    <div class="form-group mb-3">
-                        <textarea class="form-control"  placeholder="How can we help?" ></textarea>
-                    </div>
-                    <div class="custom-control custom-checkbox mb-3">
-                        <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-                        <label class="custom-control-label" for="customControlValidation1">
-                            Tick this box if you don’t mind us emailing you from time to 
-                            time with updates and things. Take a look at our Privacy Policy here
-                        </label>
-                    </div>
-                    <input type="submit" class="btn btn-pp" value="SEND"/>
-                </form>
+                <div class="col-md-12">
+                        <h3> Be our next partner </h3>
+                        <p>
+                                We’re always looking to partner with more brands and agencies! 
+                                No matter what size your campaign is, or even if you just want us on 
+                                standby to allow you to offer a prize promotion service to your clients
+                                or keep this strategy up your sleeve, we’d love to hear from you.
+                        </p>
+                        <p> Talk to us! About what you need, how it all works, or just to get to know us better.
+                        Give us a call or send us an email below; we aim to respond in a day or so.</p>
+        
+                        <form class="col-md-6">
+                        <div class="form-group">
+                                <input type="text" class="form-control" name="" placeholder="Name"/>
+                        </div>
+                        <div class="form-group">
+                                <input type="email" class="form-control" name="" placeholder="Email address"/>
+                        </div>
+                        <div class="form-group">
+                                <input type="text" class="form-control" name="" placeholder="Phone number"/>
+                        </div>
+                        <div class="form-group mb-3">
+                                <textarea class="form-control"  placeholder="How can we help?" ></textarea>
+                        </div>
+                        <div class="custom-control custom-checkbox mb-3">
+                                <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                                <label class="custom-control-label" for="customControlValidation1">
+                                Tick this box if you don’t mind us emailing you from time to 
+                                time with updates and things. Take a look at our Privacy Policy here
+                                </label>
+                        </div>
+                        <input type="submit" class="btn btn-pp" value="SEND"/>
+                        </form>
+                </div>
                 
-                
-            </div>
+        </div>
 </div>
 
 <div class="container-fluid bg-brand-color py-md-5">

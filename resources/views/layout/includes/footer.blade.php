@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="row mb-4 footer-follow-us">
-                    <div class="col-sm-4 footer-follow-us-text"> <span class="footer-col-1-heading-text"> Follow us </span> </div>
-                    <div class="col-sm footer-follow-icons">
+                    <div class="col-md-4 footer-follow-us-text"> <span class="footer-col-1-heading-text"> Follow us </span> </div>
+                    <div class="col-md-8 footer-follow-icons">
                             <a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
@@ -14,8 +14,8 @@
                 </div>
 
                 <div class="row footer-contact-us">
-                    <div class="col-sm-4 footer-contact-us-text"> <span class="footer-col-1-heading-text"> Contact us </span> </div>
-                    <div class="col-sm-4 contact-us-icons">
+                    <div class="col-md-4 footer-contact-us-text"> <span class="footer-col-1-heading-text"> Contact us </span> </div>
+                    <div class="col-md-6 contact-us-icons">
                             <a href=""><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>

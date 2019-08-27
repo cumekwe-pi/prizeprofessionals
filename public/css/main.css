@@ -322,6 +322,14 @@ footer a{
   .services-prize-sourcing-text{
     margin-bottom:26px;
   }
+  .index-hero{
+    background:url(../img/prize-professionals.jpg) no-repeat; 
+    background-size: cover;
+  }
+  .customer-win-hero{
+    background:url(img/customers-win.jpg) no-repeat; 
+    background-size: cover;      
+  }  
 /*--- Media queries --*/
 
 /* 
@@ -337,6 +345,7 @@ footer a{
         width:100%;
         height:200px;
         color: #fff;
+        margin-top:20px;
     }
 
     .hero{
@@ -516,6 +525,17 @@ footer a{
         float:left;
         width:53%;
     }
+    .bg-brand-color{
+        margin-top:20px;
+    }
+    .index-hero{
+        background:url(../img/prize-professionals-m.jpg) no-repeat; 
+        background-size: cover;
+      }
+      .customer-win-hero{
+        background:url(../img/customers-win-m.jpg) no-repeat; 
+        background-size: cover;      
+      }    
  }
 
 /* 
@@ -667,6 +687,14 @@ footer a{
         width:100%;
         margin-bottom: 10px;
     }
+    .index-hero{
+        background:url(../img/prize-professionals-m.jpg) no-repeat; 
+        background-size: cover;
+      }
+      .customer-win-hero{
+        background:url(../img/customers-win-m.jpg) no-repeat; 
+        background-size: cover;      
+      } 
  }
 
 /* 
@@ -757,7 +785,7 @@ footer a{
     #hero_text{
         font-size:62px;
         display:block;
-        width: 755px;
+        width: 699px;
         padding: 127px 0 0 70px;
         line-height:68px;
         margin-left:11px;
@@ -815,6 +843,14 @@ footer a{
         height: 40px;
         margin-top: 119px;
     }
+    .index-hero{
+        background:url(../img/prize-professionals-m.jpg) no-repeat; 
+        background-size: cover;
+      }
+      .customer-win-hero{
+        background:url(../img/customers-win-m.jpg) no-repeat; 
+        background-size: cover;      
+      } 
  }
 
 /* 
@@ -900,7 +936,7 @@ footer a{
     #hero_text{
         font-size:62px;
         display:block;
-        width: 755px;
+        width: 699px;
         padding: 127px 0 0 70px;
         line-height:68px;
         margin-left:11px;
@@ -954,6 +990,14 @@ footer a{
     .mt-83{
         margin-top:30px;
     }
+    .index-hero{
+        background:url(../img/prize-professionals-m.jpg) no-repeat; 
+        background-size: cover;
+      }
+      .customer-win-hero{
+        background:url(../img/customers-win-m.jpg) no-repeat; 
+        background-size: cover;      
+      } 
 }
 
 /* 

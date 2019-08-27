@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('content')
 
-<div class="hero" style="background:url(img/prize-professionals.jpg) no-repeat; background-size: cover;">
+<div class="hero index-hero" style="">
         <span id="hero_text">
             We create bespoke incentives & prize promotions
             that boost brands.
@@ -173,7 +173,7 @@
         </div> 
 </div>
 
-<div class="in-content-hero" style="background:url(img/customers-win.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero customer-win-hero" style=""></div>
 
 <div class="container">
         <div class="heading-text">
