@@ -212,7 +212,7 @@
                 leave us to do what we do best. 
         </p>
         {{-- <div class="text-center"> <a href="#" class="btn button">Request a Quote</a></div> --}}
-        <div class="py-md-5">
+        <div class="py-md-5 py-5">
                 <ul>
                         <li> We’re open to working the way you work</li>
                         <li> You’ll have your own Prize Professional </li>

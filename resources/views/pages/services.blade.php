@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('content')
 
-    <div class="in-content-hero" style="background:url(img/prize-sourcing-fulfilment-management.jpg) no-repeat; background-size: cover;"></div>
+    <div class="in-content-hero services-index-hero"></div>
 
     <div class="container pb-109">
             <div class="heading-text">
@@ -94,7 +94,7 @@
             </div>
     </div>
 
-    <div class="in-content-hero" style="background:url(img/prize-promotion-partner-agency.jpg) no-repeat; background-size: cover;"></div>
+    <div class="in-content-hero prize-promotion-partner-hero"></div>
 
     <div class="container">
             <h3 class="text-center py-md-5">We are a prize promotion partner agency </h3>

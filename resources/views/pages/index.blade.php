@@ -133,7 +133,7 @@
     </div>
 </div>
 
-<div class="in-content-hero" style="background:url(img/prize-promotion-partner.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero prize-promotion-hero" style=""></div>
 
 <div class="container pb-109">
         <div class="heading-text">
@@ -184,7 +184,7 @@
         </div>       
 </div>
 
-<div class="in-content-hero" style="background:url(img/prizes-incentives-for-all.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero prize-incentive-hero"></div>
 
 
 <div class="container">
