@@ -393,7 +393,17 @@ footer a{
     background:url(../img/contact.jpg) no-repeat; 
     background-size: cover;
  }
- 
+ .tangible-products-text{
+    margin-top: 45px;
+ }
+ .prize-sourcing-top-hero{
+    background:url(../img/prize-sourcing-for-promotional-campaigns.jpg) no-repeat; 
+    background-size: cover;
+ }
+ .prize-sourcing-what-we-can-do-hero{
+    background:url(../img/what-we-can-do-for-you-prize-sourcing.jpg) no-repeat; 
+    background-size: cover;
+ }
 /*--- Media queries --*/
 
 /* 
@@ -684,6 +694,14 @@ footer a{
      .contact-heading-text{
          margin-bottom: 50px;
      }
+     .prize-sourcing-top-hero{
+        background:url(../img/prize-sourcing-for-promotional-campaigns-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .prize-sourcing-what-we-can-do-hero{
+        background:url(../img/what-we-can-do-for-you-prize-sourcing-m.jpg) no-repeat; 
+        background-size: cover;
+     }
  }
 
 /* 
@@ -906,6 +924,10 @@ footer a{
      }
      .contact-hero{
         background:url(../img/contact-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .prize-sourcing-top-hero{
+        background:url(../img/prize-sourcing-for-promotional-campaigns-m.jpg) no-repeat; 
         background-size: cover;
      }
  }
