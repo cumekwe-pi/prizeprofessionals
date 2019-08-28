@@ -1,10 +1,10 @@
 @extends('layout.app')
 @section('content')
 
-<div class="in-content-hero" style="background:url(img/prize-promotion-agency-partner.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero partners-top-hero" style=""></div>
 
 <div class="container">
-        <div class="py-md-5">
+        <div class="py-md-5 heading-text">
                 <h1> We’re a prize promotion & fulfilment partner agency</h1>
                 <h3> 
                     We partner with agencies, brands and media and provide prize sourcing, fulfilment 
@@ -110,7 +110,7 @@
 
 </div>
 
-<div class="in-content-hero" style="background:url(img/partner-with-us.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero partner-with-us-hero"></div>
 
 <div class="container">
                 <h2 class="text-center py-md-3"> Partner with us and we’ll provide </h2>
@@ -188,7 +188,7 @@
                 </div>
 </div>
 
-<div class="in-content-hero" style="background:url(img/why-partner-with-us.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero why-partner-hero" style=""></div>
 
 <div class="container py-md-5">
         <h3 class="text-center py-md-3"> Why you should partner with us </h3>
@@ -224,7 +224,7 @@
         </div>
 </div>
 
-<div class="in-content-hero" style="background:url(img/be-our-next-partner.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero be-our-partner-hero" style=""></div>
 
 <div class="container mb-5 py-md-5">
         <div class="row">
@@ -268,7 +268,7 @@
 
 <div class="container-fluid bg-brand-color py-md-5">
         <div class="container">
-                <div class="heading-text ">
+                <div class="lets-talk">
                         <h1> Let’s talk</h1>
                         <p>Learn how it all works, request a quote, get started working with us or ask us anything.</p> 
                         <a href="#" class="btn white-button">Contact us</a>

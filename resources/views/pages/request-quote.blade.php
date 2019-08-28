@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('content')
 
-<div class="in-content-hero" style="background:url(img/request-a-quote-quote-pg.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero request-quote-hero" style=" background-size: cover;"></div>
 
 <div class="container mb-5">
     <div class="py-md-5">
@@ -51,7 +51,7 @@
 
 <div class="container-fluid bg-brand-color py-md-5">
     <div class="container">
-            <div class="heading-text ">
+            <div class="lets-talk">
                     <h1> Let’s talk</h1>
                     <p>Learn how it all works, request a quote, get started working with us or ask us anything.</p> 
                     <a href="#" class="btn white-button">Contact us</a>

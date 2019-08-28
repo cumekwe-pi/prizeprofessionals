@@ -222,7 +222,7 @@
 
     <div class="container-fluid bg-brand-color py-md-5">
             <div class="container">
-                    <div class="heading-text ">
+                    <div class="lets-talk">
                             <h1> Let’s talk</h1>
                             <p>Learn how it all works, request a quote, get started working with us or ask us anything.</p> 
                             <a href="#" class="btn white-button">Contact us</a>

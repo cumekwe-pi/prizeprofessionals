@@ -159,6 +159,17 @@ header {
     font-size: 54px;
 }
 
+.lets-talk{
+    text-align: center;
+    height:auto;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.lets-talk h1{
+    font-size: 54px;
+}
+
 .card-custom{
     height:433px;
 }
@@ -357,6 +368,32 @@ footer a{
     background:url(../img/request-a-quote.jpg) no-repeat; 
     background-size: cover;
  }
+ .partners-top-hero{
+    background:url(../img/prize-promotion-agency-partner.jpg) no-repeat;
+    background-size: cover;
+ }
+ .partner-with-us-hero{
+    background:url(../img/partner-with-us.jpg) no-repeat; 
+    background-size: cover;
+ }
+ 
+ .why-partner-hero{
+    background:url(../img/why-partner-with-us.jpg) no-repeat; 
+    background-size: cover;
+ }
+ .be-our-partner-hero{
+    background:url(../img/be-our-next-partner.jpg) no-repeat;
+    background-size: cover;
+ }
+ .request-quote-hero{
+    background:url(../img/request-a-quote-quote-pg.jpg) no-repeat;
+    background-size: cover;
+ }
+ .contact-hero{
+    background:url(../img/contact.jpg) no-repeat; 
+    background-size: cover;
+ }
+ 
 /*--- Media queries --*/
 
 /* 
@@ -437,9 +474,10 @@ footer a{
     .heading-text{
         text-align: center;
         height:auto;
+        font-size:20px;
     }
     .heading-text h1 {
-        font-size: 46px;
+        font-size: 28px;
     }
 
     .mobile-hide{
@@ -591,6 +629,60 @@ footer a{
      .service-request-quote-hero{
         background:url(../img/request-a-quote-m.jpg) no-repeat; 
         background-size: cover;
+     }
+    
+    .heading-text h3 {
+        font-size: 20px;
+    }
+    .text-center h2{
+        font-size:24px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+    .partners-top-hero{
+        background:url(../img/prize-promotion-agency-partner-m.jpg) no-repeat;
+        background-size: cover;
+     }
+     .partner-with-us-hero{
+        background:url(../img/partner-with-us-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .why-partner-hero{
+        background:url(../img/why-partner-with-us-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .be-our-partner-hero{
+        background:url(../img/be-our-next-partner-m.jpg) no-repeat;
+        background-size: cover;
+     }
+     .lets-talk{
+        text-align: center;
+        height:auto;
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .lets-talk h1{
+        font-size: 28px;
+    }
+    .request-quote-hero{
+        background:url(../img/request-a-quote-quote-m.jpg) no-repeat;
+        background-size: cover;
+     }
+     .contact-hero{
+        background:url(../img/contact-m.jpg) no-repeat; 
+        background-size: cover;
+        margin-bottom: 37px;
+     }
+     .contact-heading-text h1{
+        font-size: 28px;
+     }
+     .contact-heading-text h3{
+        font-size: 20px;
+     }
+     .contact-heading-text{
+         margin-bottom: 50px;
      }
  }
 
@@ -777,6 +869,43 @@ footer a{
      }
      .service-request-quote-hero{
         background:url(../img/request-a-quote-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .card-title {
+        font-size: 24px;
+    }
+    .partners-top-hero{
+        background:url(../img/prize-promotion-agency-partner-m.jpg) no-repeat;
+        background-size: cover;
+     }
+     .partner-with-us-hero{
+        background:url(../img/partner-with-us-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .why-partner-hero{
+        background:url(../img/why-partner-with-us-m.jpg) no-repeat; 
+        background-size: cover;
+     }
+     .be-our-partner-hero{
+        background:url(../img/be-our-next-partner-m.jpg) no-repeat;
+        background-size: cover;
+     }
+     .lets-talk{
+        text-align: center;
+        height:auto;
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .lets-talk h1{
+        font-size: 28px;
+    }
+    .request-quote-hero{
+        background:url(../img/request-a-quote-quote-m.jpg) no-repeat;
+        background-size: cover;
+     }
+     .contact-hero{
+        background:url(../img/contact-m.jpg) no-repeat; 
         background-size: cover;
      }
  }

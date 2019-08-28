@@ -1,13 +1,15 @@
 @extends('layout.app')
 @section('content')
 
-<div class="in-content-hero" style="background:url(img/contact.jpg) no-repeat; background-size: cover;"></div>
+<div class="in-content-hero contact-hero" style=""></div>
 
 <div class="container mb-5">
     <div class="py-md-5">
-        <h1> Contact us</h1>
-        <h3> Talk to us about your next campaign, find out more about what we do or ask us anything. We aim to reply within a day</h3>
-        
+        <div class="contact-heading-text">
+            <h1> Contact us</h1>
+            <h3> Talk to us about your next campaign, find out more about what we do or ask us anything. We aim to reply within a day</h3>        
+        </div>
+      
         <div class="row">
             <form class="col-md-6">
                 <div class="form-group">
@@ -40,7 +42,7 @@
 
 <div class="container-fluid bg-brand-color py-md-5">
     <div class="container">
-            <div class="heading-text ">
+            <div class="lets-talk">
                     <h1> Let’s talk</h1>
                     <p>Learn how it all works, request a quote, get started working with us or ask us anything.</p> 
                     <a href="#" class="btn white-button">Contact us</a>
