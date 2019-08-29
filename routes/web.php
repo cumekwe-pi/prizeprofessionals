@@ -24,3 +24,7 @@ Route::get('/claim-a-prize',  ['uses' => 'PageController@claimPrize',   'as' => 
 Route::get('/prize-sourcing',  ['uses' => 'PageController@prizeSourcing',   'as' => 'prizeSourcing']);
 Route::get('/prize-fulfillment',  ['uses' => 'PageController@prizeFulfillment',   'as' => 'prizeFulfillment']);
 Route::get('/winner-management',  ['uses' => 'PageController@winnerManagement',   'as' => 'winnerManagement']);
+Route::get('/privacy-policy',  ['uses' => 'PageController@privacyPolicy',   'as' => 'privacyPolicy']);
+Route::get('/terms',  ['uses' => 'PageController@terms',   'as' => 'terms']);
+Route::get('/cookies',  ['uses' => 'PageController@cookies',   'as' => 'cookies']);
+Route::get('/about-us',  ['uses' => 'PageController@about',   'as' => 'about']);

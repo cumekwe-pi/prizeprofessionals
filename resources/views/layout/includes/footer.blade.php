@@ -34,10 +34,10 @@
                             </div>
                             <div class="col-md-4 a-block">
                                 <p> Useful links </p>
-                                <a href="" class=""> Privacy </a>
-                                <a href="" class=""> Terms </a>
-                                <a href="" class=""> Cookies </a>
-                                <a href="" class=""> About </a>
+                                <a href="{{route('privacyPolicy')}}" class=""> Privacy </a>
+                                <a href="{{route('terms')}}" class=""> Terms </a>
+                                <a href="{{route('cookies')}}" class=""> Cookies </a>
+                                <a href="{{route('about')}}" class=""> About </a>
                             </div>
                 </div>
                

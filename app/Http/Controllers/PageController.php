@@ -50,4 +50,24 @@ class PageController extends BaseController
     {
         return view('pages.winner-management');
     }
+
+    public function privacyPolicy()
+    {
+        return view('pages.privacy');
+    }
+
+    public function terms()
+    {
+        return view('pages.terms');
+    }
+
+    public function cookies()
+    {
+        return view('pages.cookies');
+    }
+
+    public function about()
+    {
+        return view('pages.about');
+    }
 }
