@@ -28,3 +28,6 @@ Route::get('/privacy-policy',  ['uses' => 'PageController@privacyPolicy',   'as'
 Route::get('/terms',  ['uses' => 'PageController@terms',   'as' => 'terms']);
 Route::get('/cookies',  ['uses' => 'PageController@cookies',   'as' => 'cookies']);
 Route::get('/about-us',  ['uses' => 'PageController@about',   'as' => 'about']);
+
+Route::post('/post-contact', ['uses' => 'PageController@postContact', 'as' => 'submitContactForm']);
+Route::post('/post-request-quote', ['uses' => 'PageController@postRequestQuote', 'as' => 'postRequestQuote']);
