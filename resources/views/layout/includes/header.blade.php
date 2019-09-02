@@ -15,7 +15,7 @@
             <div class="phone-email-prize">
               <div class="phone-email" style="">
                   <span> 023 1234 567 </span>
-                  <span> hello@prizeprofessionals.co.uk </span>
+                  <span> hello@prizeprofessionals.com </span>
               </div>
               <a href="{{route('claimPrize')}}" class="button"> claim a prize </a>
             </div>

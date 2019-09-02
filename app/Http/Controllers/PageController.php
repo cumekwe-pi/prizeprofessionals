@@ -104,7 +104,7 @@ class PageController extends Controller
             if (Mail::failures()) {
                 return redirect()->route('contact',["#contact_form"])->with('fail','Sorry something went wrong! Please try again later');
             }
-            return redirect()->route('contact',["#contact_form"])->with('success','Thank you contacting us!. We will be in touch shortly.');
+            return redirect()->route('contact',["#contact_form"])->with('success','Thank you for contacting us!. We will be in touch shortly.');
         }
         catch(Exception $ex)
         {
@@ -141,7 +141,7 @@ class PageController extends Controller
             if (Mail::failures()) {
                 return redirect()->route('requestQuote',["#request_quote_form"])->with('fail','Sorry something went wrong! Please try again later');
             }
-            return redirect()->route('requestQuote',["#request_quote_form"])->with('success','Thank you contacting us!. We will be in touch shortly.');
+            return redirect()->route('requestQuote',["#request_quote_form"])->with('success','Thank you for contacting us!. We will be in touch shortly.');
         }
         catch(Exception $ex)
         {
