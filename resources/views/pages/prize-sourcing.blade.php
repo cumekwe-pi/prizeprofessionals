@@ -230,7 +230,7 @@
                         <li> Specialist winner handling </li>
                         <li> End-to-end management</li>
                     </ul>
-                    <a href="#" class="btn btn-pp">Get in touch</a>
+                    <a href="{{route('contact')}}" class="btn btn-pp">Get in touch</a>
             </div>
           
         </div>
@@ -255,7 +255,7 @@
                     We’re flexible, though. So why not give us a call for a chat and we’ll work together to make sure your campaign does exactly what you want it to.
                 </p>
                 <div class="py-md-5">
-                        <a href="#" class="btn btn-pp">Request a quote</a>
+                        <a href="{{route('requestQuote')}}" class="btn btn-pp">Request a quote</a>
                 </div>
         </div>
       

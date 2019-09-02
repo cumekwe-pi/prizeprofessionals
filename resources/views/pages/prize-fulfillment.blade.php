@@ -225,7 +225,7 @@
                 get your campaign off to a flying start.
             </p>
             <div class="py-md-5">
-                    <a href="#" class="btn button">Request a quote</a>
+                    <a href="{{route('requestQuote')}}" class="btn button">Request a quote</a>
             </div>
         </div>
 </div>

@@ -220,7 +220,7 @@
                         <li> Experts in handing entire promotional campaigns </li>
                         <li> We create lasting collaborative partnerships </li>
                 </ul>
-                <a href="#" class="btn btn-pp">Get in touch</a>
+                <a href="{{route('contact')}}" class="btn btn-pp">Get in touch</a>
         </div>
 </div>
 
@@ -271,7 +271,7 @@
                 <div class="lets-talk">
                         <h1> Let’s talk</h1>
                         <p>Learn how it all works, request a quote, get started working with us or ask us anything.</p> 
-                        <a href="#" class="btn white-button">Contact us</a>
+                        <a href="{{route('contact')}}" class="btn white-button">Contact us</a>
                 </div> 
         </div>
 </div>

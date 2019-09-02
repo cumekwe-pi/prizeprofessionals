@@ -288,7 +288,7 @@
                 <div class="lets-talk mt-83">
                         <h1> Let’s talk</h1>
                         <p>Learn how it all works, request a quote, get started working with us or ask us anything.</p> 
-                        <a href="#" class="btn white-button mt-27">Contact us</a>
+                <a href="{{route('contact')}}" class="btn white-button mt-27">Contact us</a>
                 </div> 
         </div>
 </div>
