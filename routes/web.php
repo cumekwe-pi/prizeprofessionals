@@ -32,3 +32,4 @@ Route::get('/about-us',  ['uses' => 'PageController@about',   'as' => 'about']);
 Route::post('/post-contact', ['uses' => 'PageController@postContact', 'as' => 'submitContactForm']);
 Route::post('/post-request-quote', ['uses' => 'PageController@postRequestQuote', 'as' => 'postRequestQuote']);
 Route::post('/post-claim-prize', ['uses' => 'PageController@postClaimPrize', 'as' => 'postClaimPrize']);
+Route::post('/post-be-partner', ['uses' => 'PageController@postPartnerForm', 'as' => 'postPartnerForm']);

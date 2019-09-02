@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Mail\ContactForm;
 use App\Mail\RequestQuote;
 use App\Mail\ClaimPrize;
+use App\Mail\BecomePartner;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 
@@ -177,7 +178,7 @@ class PageController extends Controller
             $data['prize_campaign'] = $request->input('prize_campaign');
             $data['winning_code'] = $request->input('winning_code');
             $data['can_email'] = $request->input('can_email');
-            
+
             $this->validate($request, $rules, $customMessages);
 
             Mail::to('charles@promotionsinteractive.com')->send(new ClaimPrize($data));
@@ -185,6 +186,44 @@ class PageController extends Controller
                 return redirect()->route('claimPrize',["#claim_prize"])->with('fail','Sorry something went wrong! Please try again later');
             }
             return redirect()->route('claimPrize',["#claim_prize"])->with('success','Thank you for contacting us!. We will be in touch shortly.');
+        }
+        catch(Exception $ex)
+        {
+
+        }
+    }
+
+    public function postPartnerForm(Request $request)
+    {
+        try
+        {
+            $rules = [
+                'customer_name' => 'required',
+                'email' => 'required|email',
+                'phone' => 'required',
+                'how_can_we_help' => 'required',
+               
+            ];
+    
+            $customMessages = [
+                'customer_name.required' => 'Please tell us your name',
+                'email.required' => 'Please give us your email address',
+                'phone.required' => 'Please give us your phone number',
+                'how_can_we_help.required' => 'Please let us know how we can help'
+            ];
+
+            $validator = $this->validate($request, $rules, $customMessages);
+            $data['customer_name'] = $request->input('customer_name');
+            $data['email'] = $request->input('email');
+            $data['phone'] = $request->input('phone');
+            $data['how_can_we_help'] = $request->input('how_can_we_help');
+            $data['can_email'] = $request->input('can_email');
+            $mailed = Mail::to('charles@promotionsinteractive.com')->send(new BecomePartner($data));
+
+            if (Mail::failures()) {
+                return redirect()->route('partners',["#become_partner"])->with('fail','Sorry something went wrong! Please try again later');
+            }
+            return redirect()->route('partners',["#become_partner"])->with('success','Thank you for contacting us!. We will be in touch shortly.');
         }
         catch(Exception $ex)
         {
