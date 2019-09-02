@@ -144,7 +144,7 @@
                         <li> We can assist with the planning of the campaign, or do the whole thing ourselves </li>
                         <li> We can also build a custom online reward claiming platform, using instant win or entry codes </li>
                     </ul>
-                    <a href="#" class="btn btn-pp">Get in touch</a>
+                <a href="{{route('contact')}}" class="btn btn-pp">Get in touch</a>
             </div>
     </div>
 
@@ -217,7 +217,7 @@
                 you want to achieve and as much detail as you have and we’ll aim to get
                 back to you within a day or so. 
             </p>
-            <div class="text-center"> <a href="#" class="btn btn-pp">Request a Quote</a></div>    
+        <div class="text-center"> <a href="{{route('requestQuote')}}" class="btn btn-pp">Request a Quote</a></div>    
     </div>
 
     <div class="container-fluid bg-brand-color py-md-5">

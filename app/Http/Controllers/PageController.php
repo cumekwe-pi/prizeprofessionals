@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Mail\ContactForm;
 use App\Mail\RequestQuote;
+use App\Mail\ClaimPrize;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 
@@ -142,6 +143,48 @@ class PageController extends Controller
                 return redirect()->route('requestQuote',["#request_quote_form"])->with('fail','Sorry something went wrong! Please try again later');
             }
             return redirect()->route('requestQuote',["#request_quote_form"])->with('success','Thank you for contacting us!. We will be in touch shortly.');
+        }
+        catch(Exception $ex)
+        {
+
+        }
+    }
+
+    public function postClaimPrize(Request $request)
+    {
+        try
+        {
+            $rules = [
+                'customer_name' => 'required',
+                'email' => 'required|email',
+                'phone' => 'required',
+                'prize_campaign' => 'required',
+                'winning_code' => 'required',
+            ];
+
+            $customMessages = [
+                'customer_name.required' => 'Please tell us your name',
+                'email.required' => 'Please give us your email address',
+                'phone.required' => 'Please give us your phone number',
+                'prize_campaign.required' => 'Please tell us the Prize campaign',
+                'winning_code' => 'Please enter the winning code'
+            ];
+
+     
+            $data['customer_name'] = $request->input('customer_name');
+            $data['email'] = $request->input('email');
+            $data['phone'] = $request->input('phone');
+            $data['prize_campaign'] = $request->input('prize_campaign');
+            $data['winning_code'] = $request->input('winning_code');
+            $data['can_email'] = $request->input('can_email');
+            
+            $this->validate($request, $rules, $customMessages);
+
+            Mail::to('charles@promotionsinteractive.com')->send(new ClaimPrize($data));
+            if (Mail::failures()) {
+                return redirect()->route('claimPrize',["#claim_prize"])->with('fail','Sorry something went wrong! Please try again later');
+            }
+            return redirect()->route('claimPrize',["#claim_prize"])->with('success','Thank you for contacting us!. We will be in touch shortly.');
         }
         catch(Exception $ex)
         {
