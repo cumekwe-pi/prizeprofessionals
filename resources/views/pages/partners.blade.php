@@ -284,8 +284,8 @@
                         <div class="form-group mb-3">
                                 <textarea class="form-control" name="how_can_we_help" placeholder="How can we help?" >{{old('how_can_we_help')}}</textarea>
                                 <p class="text-danger">
-                                        @if($errors->has('phone'))
-                                                {{ $errors->first('phone')}}
+                                        @if($errors->has('how_can_we_help'))
+                                                {{ $errors->first('how_can_we_help')}}
                                         @endif
                                 </p>
                         </div>

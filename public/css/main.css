@@ -396,6 +396,13 @@ footer a{
  .tangible-products-text{
     margin-top: 45px;
  }
+ .holidays-getaway-text{
+     margin-top:49px;
+ }
+ .merchandise-text{
+     margin-top: 44px;
+     margin-bottom: 47px;
+ }
  .prize-sourcing-top-hero{
     background:url(../img/prize-sourcing-for-promotional-campaigns.jpg) no-repeat; 
     background-size: cover;
@@ -1113,6 +1120,10 @@ footer a{
         background:url(../img/request-a-quote-m.jpg) no-repeat; 
         background-size: cover;
      }
+     .merchandise-text {
+        margin-top: 49px;
+        margin-bottom:0px;
+    }
  }
 
 /* 
@@ -1284,6 +1295,9 @@ footer a{
         background:url(../img/request-a-quote-m.jpg) no-repeat; 
         background-size: cover;
      }
+     .merchandise-text {
+        margin-top: 49px;
+    }
 }
 
 /* 
@@ -1392,6 +1406,16 @@ footer a{
     .desktop-arrow-how-it-works-wrapper{
         height: 40px;
         margin-top: 119px;
+    }
+    .tangible-products-text{
+        margin-top:0px;
+    }
+    .holidays-getaway-text {
+       margin-top: 0px;
+    }
+    .merchandise-text {
+        margin-top: 14px;
+        margin-bottom: 14px;
     }
 }
 

@@ -7,6 +7,7 @@ use App\Mail\ClaimPrize;
 use App\Mail\BecomePartner;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
+use Validator;
 
 class PageController extends Controller
 {
@@ -212,7 +213,12 @@ class PageController extends Controller
                 'how_can_we_help.required' => 'Please let us know how we can help'
             ];
 
-            $validator = $this->validate($request, $rules, $customMessages);
+           // $validator = $this->validate($request, $rules, $customMessages);
+           $validator = Validator::make($request->all(), $rules,$customMessages);
+
+            if($validator->fails()){
+                return redirect()->route('partners',["#become_partner"])->withErrors($validator)->withInput();
+            }
             $data['customer_name'] = $request->input('customer_name');
             $data['email'] = $request->input('email');
             $data['phone'] = $request->input('phone');

@@ -84,7 +84,7 @@
                         <img src="{{asset('img/holidays-getaways.svg')}}" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Holidays & getaways</h5>
-                            <p class="card-text">Let us create a dream holiday your customers are going to want to win, increasing chances they’ll enter </p>
+                            <p class="card-text holidays-getaway-text">Let us create a dream holiday your customers are going to want to win, increasing chances they’ll enter </p>
                             <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                 </div>
@@ -100,7 +100,7 @@
                         <img src="{{asset('img/merchandise.svg')}}" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">Merchandise</h5>
-                            <p class="card-text">We can create your very own branded merchandise on almost anything to reflect your own brand </p>
+                            <p class="card-text merchandise-text">We can create your very own branded merchandise on almost anything to reflect your own brand </p>
                             <a href="#" class="btn btn-pp">FIND OUT MORE</a>
                         </div>
                 </div>
