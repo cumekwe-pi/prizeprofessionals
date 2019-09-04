@@ -127,7 +127,7 @@
                 time trip. Most of all, we make sure your winners are happy and now your number one fans.
             </p>
             <div class="py-md-5">
-                    <a href="#" class="btn button">Get in touch</a>
+                    <a href="{{route('contact')}}" class="btn btn-pp">Get in touch</a>
             </div>
         </div>
 </div>
@@ -201,7 +201,7 @@
                         <li> One dedicated point of contact for your whole campaign </li>
                         <li> Flexible and totally friendly </li>
                     </ul>
-                    <a href="#" class="btn button">Get in touch</a>
+                    <a href="{{route('contact')}}" class="btn btn-pp">Get in touch</a>
             </div>
 
         </div>
@@ -225,7 +225,7 @@
                 get your campaign off to a flying start.
             </p>
             <div class="py-md-5">
-                    <a href="{{route('requestQuote')}}" class="btn button">Request a quote</a>
+                    <a href="{{route('requestQuote')}}" class="btn btn-pp">Request a quote</a>
             </div>
         </div>
 </div>
