@@ -13,27 +13,31 @@
                 </p> 
         </div>
         <div class="row">
-            <p>Creating and running a successful prize promotion campaign is great, 
-               but what happens with the winners? If entries aren’t collected and organised correctly, 
-               finding and then contacting winners can become much harder than it should be. 
-               That’s where the Prize Professionals come in; we remove all the stress and 
-               risk of winner management and do it all for you. From the initial contact to
-               continued customer support, we make sure your winners keep smiling from
-                when they’re first told to when they receive their prize.
-            </p>
-            <p>
-                We make sure every contact made with the winner is on-brand and meets the 
-                tone of voice set by the brand. This keeps the whole campaign feeling 
-                professional, legitimate and makes the winner feel special. Every winner
-                we contact is made to feel like a VIP, from the moment we let them know all
-                the way through until they have received their prize or returned from their trip.  
-            </p>
-            <p>
-                After the effort and investment in making a standout campaign, the last 
-                thing you want is unhappy winners and risk damaged reputation. 
-                By letting Prize Professionals take care of the winner management, you’ll
-                save time and reduce risk, letting you get on with what you do best while letting us do our thing.
-            </p>
+                <div class="col-md-12">
+                        <p>     Creating and running a successful prize promotion campaign is great, 
+                                but what happens with the winners? If entries aren’t collected and organised correctly, 
+                                finding and then contacting winners can become much harder than it should be. 
+                                That’s where the Prize Professionals come in; we remove all the stress and 
+                                risk of winner management and do it all for you. From the initial contact to
+                                continued customer support, we make sure your winners keep smiling from
+                                when they’re first told to when they receive their prize.
+                        </p>
+                        <p>
+                                We make sure every contact made with the winner is on-brand and meets the 
+                                tone of voice set by the brand. This keeps the whole campaign feeling 
+                                professional, legitimate and makes the winner feel special. Every winner
+                                we contact is made to feel like a VIP, from the moment we let them know all
+                                the way through until they have received their prize or returned from their trip.  
+                        </p>
+                        <p>
+                                After the effort and investment in making a standout campaign, the last 
+                                thing you want is unhappy winners and risk damaged reputation. 
+                                By letting Prize Professionals take care of the winner management, you’ll
+                                save time and reduce risk, letting you get on with what you do best while letting us do our thing.
+                        </p>
+                </div>
+          
+           
         </div>
         <div class="heading-text">
                 <h2> How our Winner Handling works </h2>
@@ -73,7 +77,12 @@
                 <h2> Prize entry & claim management </h2>
         </div>
         <div class="row">
-            <p> If you have your own way of collecting winners, great! We’re happy to work with a platform you’re already used to. If not, we offer our own bespoke online entry platform developed by our very own internal team.
+                <div class="col-md-12">
+                                <p>
+                                        If you have your own way of collecting winners, great! We’re happy to work with a platform you’re already used to. If not, we offer our own bespoke online entry platform developed by our very own internal team.
+                                </p>
+                </div>
+           
         </div>
 </div>
 
