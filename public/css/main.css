@@ -593,7 +593,7 @@ footer a{
         margin-left: auto;
         margin-right: 26px;
         float: right;
-        width: 32%;
+        width: 35%;
     }
     .a-block{
         float:right;
@@ -708,6 +708,10 @@ footer a{
      .prize-sourcing-what-we-can-do-hero{
         background:url(../img/what-we-can-do-for-you-prize-sourcing-m.jpg) no-repeat; 
         background-size: cover;
+     }
+     .mt-120
+     {
+         margin-top:10px;
      }
  }
 
